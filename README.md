@@ -1,0 +1,17 @@
+# Blackjack / Twenty-one
+
+Blackjack is a popular card game. The objective of the game is to draw cards and obtain the highest total not exceeding 21.
+
+## In this simplified game:
+The possible card values range from 1 to 10 and the probability of drawing a card is equal
+The game begins by dealing two visible cards to the player (face up), and two cards to the dealer. However, in the case of the dealer, one card is visible to other players while the other is hidden.
+The player decides whether to "hit" (draw another card), or "stand" which ends their turn by pressing either h or s respectively.
+The player may hit any number of times. Should the total of the cards exceed 21, the player "busts" and loses the game to the dealer.
+If the player reaches 21, the player stands.
+The dealer's turn begins by revealing the hidden card
+The dealer hits if the total is 16 or less, and must stands if the value is 17 or more
+The dealer wins all ties (i.e. if both the dealer and the player reach 21, the dealer wins)
+The program indicates who the winner is and asks to play again
+
+### Instructions
+Run python blackjack.py
